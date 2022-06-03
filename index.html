@@ -1,0 +1,237 @@
+<html>
+
+<head>
+    <title>Student Registration</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <div style="background-image: url('https://www.thebalancecareers.com/thmb/hOSTPGdYulshro7AqttFK2wlT_Q=/3864x2173/smart/filters:no_upscale()/school-books-on-desk--education-concept-871454068-5b548900c9e77c005b04fc8c.jpg');">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        color: whitesmoke;
+        font-weight: bold;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+</style>
+
+<body>
+    <!-- Background image -->
+
+    <!-- Background image -->
+    <h1 style="text-align: center; text-decoration:underline;">STUDENT REGISTRATION FORM</h1>
+    <div class="container">
+        <form name="RegForm" action="https://chellammal.edu.in/wp-content/uploads/2017/12/Screenshot_2016-06-17_09.33.55.jpg" onsubmit="return A()" method="post">
+            <div class="row">
+                <label class="col-lg-4 col-sm-8">Name:</label>
+                <input class="col-lg-8 col-sm-8" type="text" name="Name">
+            </div>
+            <br>
+            <div class="row">
+                <label class="col-sm-8 col-lg-4">Father Name:</label>
+                <input class="col-sm-8 col-lg-8" type="text" name="FatherName">
+            </div>
+            <br>
+
+            <div class="row"> <label class="col-sm-8 col-lg-4">Mother Name:</label>
+                <input class="col-sm-8 col-lg-8" type="text" name="MotherName">
+            </div>
+            <br>
+            <div>
+                <label class="col-sm-4 col-lg-4"><u>GENDER:</u></label>
+                <input type="radio" name="gender" id="male">
+                <label class="col-sm-2 col-lg-1" for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label class="col-sm-2 col-lg-1" for="female">Female</label>
+                <input type="radio" name="gender" id="others">
+                <label for="others">Others</label>
+            </div>
+
+            <br>
+            <div class="img">
+
+                <label class="col-sm-4 col-lg-4"><u>Upload Image:</u></label>
+                <input class="col-sm-4 col-lg-4" type="file" name="fileToUpload" id="fileToUpload">
+                <input class="col-sm-2 col-lg-2" type="submit" value="Upload Image" name="submit">
+            </div>
+            <br>
+            <div class="row">
+
+                <label class="col-sm-8 col-lg-4">E-mail Address:</label>
+                <input class="col-sm-8 col-lg-8" type="email" size="65" name="EMail">
+            </div>
+            <br>
+            <div class="row">
+                <label class="col-sm-8 col-lg-4">Address:</label>
+                <input class="col-sm-8 col-lg-8" type="text" size="65" name="Address" />
+            </div>
+            <br>
+            <div class="row">
+                <label class="col-sm-8 col-lg-4">Country:</label>
+                <input class="col-sm-8 col-lg-8" type="text" size="65" name="Country" />
+            </div>
+            <br>
+            <div class="row">
+                <label class="col-sm-6 col-lg-4"> YOUR STATE:</label>
+                <select class="col-sm-6 col-lg-2" type="text" value="" name="State">
+				<option>---SELECT---</option>
+				<option>ANDHRA PRADESH</option>
+				<option>TELANGANA</option>
+				<option>KARNATAKA</option>
+				<option>KERALA</option>
+                <option>TAMIL NADU</option>
+			</select>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <label class="col-sm-6 col-lg-4">SELECT YOUR CITY:</label>
+                <select class="col-sm-6 col-lg-2" type="text" value="" name="City">
+                    <option>---SELECT---</option>
+                    <option>AMARAVATI</option>
+                    <option>HYDERABAD</option>
+                    <option>BANGALORE</option>
+                    <option>KOCHI</option>
+                    <option>CHENNAI</option>
+                </select>
+            </div>
+            <br>
+            <div class="row"> <label class="col-sm-6 col-lg-4">Pin Code: </label>
+                <input class="col-sm-6 col-lg-2" type="number" name="pincode">
+            </div>
+            <br>
+            <div class="row">
+                <label class="col-sm-6 col-lg-4">Mobile Number:</label>
+                <input class="col-sm-6 col-lg-2" type="tel" name="Telephone">
+            </div>
+            <br>
+
+
+            <div class="row">
+                <label class="col-sm-6 col-lg-4">SELECT YOUR COURSE:</label>
+                <select class="col-sm-6 col-lg-2" type="text" value="" name="Subject">
+                <option>---SELECT---</option>
+				<option>BTECH</option>
+				<option>BBA</option>
+				<option>BCA</option>
+				<option>B.COM</option>
+				<option>B.Sc</option>
+			</select>
+            </div>
+            <br>
+            <div>
+                <label class="col-sm-2 col-lg-4">HOBBIES: </label>
+
+                <input class="col-sm-0 col-lg-0" type="checkbox" name="sports" id="sports">
+                <label class="col-sm-2 col-lg-1" for="sports">Sports</label>
+
+                <input class="col-sm-0 col-lg-0" type="checkbox" name="drawing" id="drawing">
+                <label class="col-sm-2 col-lg-1" for="drawing">Drawing</label>
+
+                <input class="col-sm-0 col-lg-0" type="checkbox" name="singing" id="singing">
+                <label class="col-sm-2 col-lg-1" for="singing">Singing</label>
+
+                <input class="col-sm-0 col-lg-0" type="checkbox" name="sports" id="dancing">
+                <label class="col-sm-2 col-lg-1" for="dancing">Dancing</label>
+
+                <input class="col-sm-0 col-lg-0" type="checkbox" name="others" id="others">
+                <label class="col-sm-2 col-lg-1" for="others">Others</label>
+            </div>
+
+            <br>
+            <input type="submit" value="SUBMIT" name="Submit">
+            <input type="reset" value="RESET" name="Reset">
+            <script>
+                function A() {
+                    var name = document.forms["RegForm"]["Name"];
+                    var fname = document.forms["RegForm"]["FatherName"];
+                    var mname = document.forms["RegForm"]["MotherName"];
+                    var email = document.forms["RegForm"]["EMail"];
+                    var phone = document.forms["RegForm"]["Telephone"];
+                    var what1 = document.forms["RegForm"]["Subject"];
+                    var pincode = document.forms["RegForm"]["pincode"];
+                    var address = document.forms["RegForm"]["Address"];
+                    var india = document.forms["RegForm"]["Country"];
+                    var what = document.forms["RegForm"]["State"];
+                    var what2 = document.forms["RegForm"]["City"];
+                    var AppChosen = document.forms["RegForm"]["gender"];
+
+
+                    if (name.value == "") {
+                        window.alert("Please enter your name.");
+                        name.focus();
+                        return false;
+                    }
+                    if (fname.value == "") {
+                        window.alert("Please enter your father name.");
+                        fname.focus();
+                        return false;
+                    }
+                    if (mname.value == "") {
+                        window.alert("Please enter your mother name.");
+                        mname.focus();
+                        return false;
+                    }
+                    if (AppChosen.value == "") {
+                        window.alert("Please select your gender.");
+                        name.focus();
+                        return false;
+                    }
+
+                    if (email.value == "") {
+                        window.alert(
+                            "Please enter a valid e-mail address.");
+                        email.focus();
+                        return false;
+                    }
+                    if (address.value == "") {
+                        window.alert("Please enter your address.");
+                        address.focus();
+                        return false;
+                    }
+                    if (india.value == "") {
+                        window.alert("Please enter your country.");
+                        india.focus();
+                        return false;
+                    }
+
+                    if (what.selectedIndex < 1) {
+                        alert("Please select your state.");
+                        what.focus();
+                        return false;
+                    }
+                    if (what2.selectedIndex < 1) {
+                        alert("Please select your city.");
+                        what.focus();
+                        return false;
+                    }
+                    if (pincode.value == "") {
+                        window.alert("Please enter your pincode");
+                        pincode.focus();
+                        return false;
+                    }
+
+                    if (phone.value == "") {
+                        window.alert(
+                            "Please enter your mobile number!.");
+                        phone.focus();
+                        return false;
+                    }
+
+                    if (what1.selectedIndex < 1) {
+                        alert("Please enter your course.");
+                        what.focus();
+                        return false;
+                    }
+
+                    return true;
+                }
+            </script>
+
+
+        </form>
+    </div>
+</body>
